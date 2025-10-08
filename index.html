@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="site.title">VIVEK - Vivekananda Vedanta Centre</title>
+  <meta name="description" content="Vivekananda Vedanta Centre – Born to be good, to do good. Join us in spiritual growth and community service." />
+  <meta name="theme-color" content="#157fad" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+      <div class="nav__brand">
+        <span class="brand-icon">🕉️</span>
+        <span class="brand-text" data-i18n="site.title">VIVEK</span>
+      </div>
+
+      <button class="nav__toggle" aria-controls="primary-menu" aria-expanded="false">
+        <span class="nav__hamburger" aria-hidden="true"></span>
+      </button>
+
+      <ul id="primary-menu" class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#home" data-i18n="nav.home">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#about" data-i18n="nav.about">About</a></li>
+        <li class="nav__item"><a class="nav__link" href="#meetings" data-i18n="nav.meetings">Meetings</a></li>
+        <li class="nav__item"><a class="nav__link" href="#events" data-i18n="nav.events">Events</a></li>
+        <li class="nav__item"><a class="nav__link" href="#scholarship" data-i18n="nav.scholarship">Scholarship</a></li>
+        <li class="nav__item"><a class="nav__link" href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li class="nav__item"><a class="nav__link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <div class="lang-switch" aria-label="Language switcher">
+        <select id="lang" aria-label="Language">
+          <option value="en">🇬🇧 EN</option>
+          <option value="bn">🇧🇩 বাংলা</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-particles"></div>
+      <div class="hero-content">
+        <div class="hero-badge" data-i18n="hero.badge">Spiritual Community</div>
+        <h1 data-i18n="hero.title">VIVEK</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Vivekananda Vedanta Centre<br>Born to be good, to do good.</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Explore More</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-animate">
+      <div class="section-header">
+        <h2 data-i18n="about.heading">About Us</h2>
+        <p class="lead" data-i18n="about.lead">
+          Vivekananda Vedanta Centre is dedicated to spiritual growth, meaningful relationships, 
+          and compassionate service to humanity.
+        </p>
+      </div>
+      <div class="about-content">
+        <div class="goal-card">
+          <div class="goal-icon">🙏</div>
+          <h3 data-i18n="about.worship.title">Worship Together</h3>
+          <p data-i18n="about.worship.body">
+            Experience uplifting worship services that inspire and strengthen your faith. 
+            Our community gathers to celebrate, pray, and grow closer to the divine.
+          </p>
+        </div>
+        <div class="goal-card">
+          <div class="goal-icon">🤝</div>
+          <h3 data-i18n="about.fellowship.title">Fellowship & Growth</h3>
+          <p data-i18n="about.fellowship.body">
+            Build lasting relationships through study groups, spiritual discussions, and community events. 
+            We believe in walking together on our spiritual journey.
+          </p>
+        </div>
+        <div class="goal-card">
+          <div class="goal-icon">❤️</div>
+          <h3 data-i18n="about.service.title">Serve with Love</h3>
+          <p data-i18n="about.service.body">
+            Make a difference through outreach programs, volunteer opportunities, 
+            and acts of compassion that reflect universal love.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meetings Section -->
+    <section id="meetings" class="section-alternate section-animate">
+      <div class="section-header">
+        <h2 data-i18n="meetings.heading">Our Meetings</h2>
+      </div>
+      <div class="meeting-info">
+        <div class="meeting-item">
+          <div class="meeting-icon">☀️</div>
+          <div class="meeting-content">
+            <h3 data-i18n="meetings.sun.title">Sunday Worship Service</h3>
+            <p class="meeting-time"><strong data-i18n="label.time">Time:</strong> <span data-i18n="meetings.sun.time">10:00 AM - 12:00 PM</span></p>
+            <p data-i18n="meetings.sun.body">Join us for our main worship service with inspiring messages, uplifting music, and fellowship.</p>
+          </div>
+        </div>
+        <!-- Dynamic meetings will be inserted here by dynamic.js -->
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section-animate">
+      <div class="section-header">
+        <h2 data-i18n="events.heading">Upcoming Events</h2>
+      </div>
+      <div class="events-grid">
+        <!-- Dynamic events will be inserted here by dynamic.js -->
+      </div>
+    </section>
+
+    <!-- Scholarship Section -->
+    <section id="scholarship" class="section-alternate section-animate">
+      <div class="scholarship-container">
+        <div class="scholarship-content">
+          <div class="scholarship-icon">🎓</div>
+          <h2 data-i18n="scholarship.heading">Scholarship Program</h2>
+          <h3 data-i18n="scholarship.subhead">Empowering Future Leaders</h3>
+          <p data-i18n="scholarship.p1">
+            Our scholarship program supports promising students who demonstrate 
+            academic excellence, leadership potential, and commitment to service.
+          </p>
+          <div class="scholarship-details">
+            <div class="scholarship-detail-item">
+              <strong data-i18n="scholarship.amount.label">Award Amount:</strong>
+              <span data-i18n="scholarship.amount.value">Up to $5,000 per academic year</span>
+            </div>
+            <div class="scholarship-detail-item">
+              <strong data-i18n="scholarship.deadline.label">Application Deadline:</strong>
+              <span data-i18n="scholarship.deadline.value">March 31, 2026</span>
+            </div>
+          </div>
+          <button class="btn btn-light apply-btn" data-i18n="scholarship.apply" onclick="alert(window.__i18n.t('scholarship.alert'))">Apply Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-animate">
+      <div class="section-header">
+        <h2 data-i18n="gallery.heading">Gallery</h2>
+      </div>
+      <div class="gallery">
+        <!-- Dynamic gallery items will be inserted here by dynamic.js -->
+      </div>
+      <p class="muted" data-i18n="gallery.note">Photo gallery coming soon. Check back for images from our events and services.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-alternate section-animate">
+      <div class="section-header">
+        <h2 data-i18n="contact.heading">Contact Us</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" data-i18n="contact.name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name" data-i18n-placeholder="contact.name_ph" />
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="contact.email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="your.email@example.com" data-i18n-placeholder="contact.email_ph" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject" data-i18n="contact.subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="How can we help you?" data-i18n-placeholder="contact.subject_ph" />
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="contact.message">Message</label>
+              <textarea id="message" name="message" required placeholder="Tell us more..." data-i18n-placeholder="contact.message_ph"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn" data-i18n="contact.send">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-card-icon">📍</div>
+            <h3 data-i18n="contact.visit.title">Visit Us</h3>
+            <p data-i18n="contact.visit.addr">Local office <br>Dhaka, Bangladesh</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">📞</div>
+            <h3 data-i18n="contact.call.title">Call Us</h3>
+            <p><a href="tel:+1234567890" data-i18n="contact.call.num">xxxxxxxxx</a></p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">✉️</div>
+            <h3 data-i18n="contact.email.title">Email Us</h3>
+            <p><a href="mailto:info@faithcenter.org" data-i18n="contact.email.addr">xxxxxxxxxxxx</a></p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">⏰</div>
+            <h3 data-i18n="contact.hours.title">Office Hours</h3>
+            <p data-i18n="contact.hours.value">everyday<br>xxxx-xxxx</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3><span class="brand-icon">🕉️</span> <span data-i18n="footer.brand">VIVEK</span></h3>
+        <p data-i18n="footer.tag">Growing together in faith and love</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4 data-i18n="footer.quick">Quick Links</h4>
+          <ul>
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#meetings" data-i18n="nav.meetings">Meetings</a></li>
+            <li><a href="#events" data-i18n="nav.events">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer.getinvolved">Get Involved</h4>
+          <ul>
+            <li><a href="#scholarship" data-i18n="nav.scholarship">Scholarship</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer.connect">Connect</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="social-icon">📘</a>
+            <a href="#" aria-label="Twitter" class="social-icon">🐦</a>
+            <a href="#" aria-label="Instagram" class="social-icon">📷</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> <span data-i18n="footer.copyright.name">VIVEK</span>. <span data-i18n="footer.copyright">All rights reserved.</span></p>
+      <p data-i18n="footer.built">Built with love and faith.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+  <script src="dynamic.js"></script>
+</body>
+</html>
