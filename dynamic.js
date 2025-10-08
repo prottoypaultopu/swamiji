@@ -122,28 +122,30 @@
 
   // Update hero background
   function updateHero() {
-    if (!contentData || !contentData.hero) return;
-    
-    const hero = document.querySelector('.hero');
-    if (hero && contentData.hero.backgroundImage) {
-      const bgImage = contentData.hero.backgroundImage;
-      hero.style.backgroundImage = `linear-gradient(135deg, rgba(21,127,173,0.9) 0%, rgba(118,75,162,0.9) 100%), url('${bgImage}')`;
-      hero.style.backgroundSize = 'cover';
-      hero.style.backgroundPosition = 'center';
-      hero.style.backgroundAttachment = 'fixed';
-    }
-    
-    // Update hero text if provided
-    if (contentData.hero.title) {
-      const heroTitle = hero.querySelector('h1');
-      if (heroTitle) heroTitle.textContent = contentData.hero.title;
-    }
-    
-    if (contentData.hero.subtitle) {
-      const heroSubtitle = hero.querySelector('.hero-subtitle');
-      if (heroSubtitle) heroSubtitle.innerHTML = contentData.hero.subtitle.replace(/\n/g, '<br>');
+  if (!contentData || !contentData.hero) return;
+  
+  const hero = document.querySelector('.hero');
+  if (hero && contentData.hero.backgroundImage) {
+    const bgImage = contentData.hero.backgroundImage;
+
+    // ✅ Set only the image, no gradient overlay
+    hero.style.background = `url('${bgImage}') center/cover no-repeat fixed`;
+  }
+
+  // Update hero text if provided
+  if (contentData.hero.title) {
+    const heroTitle = hero.querySelector('h1');
+    if (heroTitle) heroTitle.textContent = contentData.hero.title;
+  }
+
+  if (contentData.hero.subtitle) {
+    const heroSubtitle = hero.querySelector('.hero-subtitle');
+    if (heroSubtitle) {
+      heroSubtitle.innerHTML = contentData.hero.subtitle.replace(/\n/g, '<br>');
     }
   }
+}
+
 
   // Render default content if JSON fails
   function renderDefaultContent() {
