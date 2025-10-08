@@ -2,7 +2,10 @@
   "hero": {
     "backgroundImage": "ttt.jpg",
     "title": "VIVEK",
-    "subtitle": "Vivekananda Vedanta Centre \n Born to be good, to do good."
+    "subtitle": "Vivekananda Vedanta Centre \n Born to be good, to do good.",
+    "title_bn": "বিবেক",
+    "subtitle_bn": "বিবেকানন্দ বেদান্ত কেন্দ্র \n ভালো থাকার জন্য, ভালো করার জন্য জন্ম।" 
+
   },
   "meetings": [
     
@@ -38,24 +41,20 @@
   ],
   "gallery": [
     {
-      "image": "images/1.jpg",
-      "title": "Thakur",
-      "title_bn": "ঠাকুর"
-    },
-    {
       "image": "images/2.jpg",
-      "title": "Thakur Ma",
-      "title_bn": "ঠাকুর মা"
+      "title": "SRI RAMAKRISHNA",
+      "title_bn": "শ্রী রামকৃষ্ণ"
     },
     {
-      "image": "images/3.jpg",
-      "title": "Mission",
-      "title_bn": "রবিবারের সেবা"
+      "image": "images/1.jpg",
+      "title": "SRI SARADA DEVI",
+      "title_bn": "শ্রী সারদা দেবী"
     },
     {
-    "image": "images/3.jpg",
-      "title": "Swamiji",
-      "title_bn": "রবিবারের সেবা"
+      "image": "images/4.jpg",
+      "title": "SWAMI VIVEKANANDA",
+      "title_bn": "স্বামী বিবেকানন্দ"
+
     }
   ]
 }
