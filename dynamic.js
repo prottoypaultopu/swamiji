@@ -191,11 +191,13 @@
     });
   }
 
-  // Listen for language changes
   document.addEventListener('languageChanged', (e) => {
-    currentLang = e.detail.lang;
-    renderContent();
-  });
+  currentLang = e.detail.lang;
+  document.documentElement.setAttribute('data-lang', currentLang);
+  renderContent();
+});
+
+
 
   // Initialize when DOM is ready
   if (document.readyState === 'loading') {

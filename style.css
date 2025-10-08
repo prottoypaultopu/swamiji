@@ -1170,3 +1170,6 @@ footer {
     color: black;
   }
 }
+html[data-lang="bn"] body {
+  font-family: 'Kalpurush', sans-serif;
+}
